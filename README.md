@@ -12,18 +12,18 @@ Repositori ini saya susun sebagai bukti praktik dari pembelajaran saya di **Cisc
 
 ### 1. Simulasi Jaringan Perusahaan Multi-Departemen
 
-![Topologi Jaringan Perusahaan](./company-network-security/topology.png)
+![Topologi Jaringan Perusahaan](./company-network-security/company-network-security.png)
 
 *   **Deskripsi**: Membangun jaringan perusahaan yang tersegmentasi untuk departemen Perpustakaan, Lab 1-3, TU, dan Guru menggunakan 3 router dan 5 switch.
 *   **Fitur Keamanan**: Segmentasi VLAN, Inter-VLAN Routing, Access Control List (ACL) untuk membatasi akses antar departemen.
 *   **Teknologi**: Cisco Packet Tracer, 3 Router, 5 Switch, 6 PC.
-*   **File Proyek**: [Download File .pkt](./company-network-security/company-network.pkt)
+*   **File Proyek**: [Download File .pkt](./company-network-security/company-network-security.pkt)
 
 ---
 
 ### 2. Simulasi Layanan Jaringan: DHCP, DNS, dan Web Server
 
-![Topologi Layanan Jaringan](./network-services/topology.png)
+![Topologi Layanan Jaringan](./network-services/network-services.png)
 
 *   **Deskripsi**: Membangun jaringan LAN dengan dua switch yang menyediakan layanan DHCP, DNS, dan Web Server untuk klien dinamis dan statis.
 *   **Fitur**:
@@ -38,7 +38,7 @@ Repositori ini saya susun sebagai bukti praktik dari pembelajaran saya di **Cisc
 
 ### 3. Simulasi Topologi Mesh dengan Redundansi dan Keamanan STP
 
-![Topologi Mesh](./mesh-topology-redundancy/topology.png)
+![Topologi Mesh](./mesh-topology-redundancy/mesh-topology-redundancy.png)
 
 *   **Deskripsi**: Membangun jaringan mesh kompleks yang menghubungkan 12 switch untuk memastikan ketersediaan tinggi (*high availability*) dan menganalisis perilaku Spanning Tree Protocol (STP) dalam mencegah *looping*.
 *   **Fitur**:
@@ -46,13 +46,13 @@ Repositori ini saya susun sebagai bukti praktik dari pembelajaran saya di **Cisc
     *   Analisis Root Bridge Election pada STP.
     *   Penerapan fitur keamanan STP: **BPDU Guard** dan **PortFast** pada port yang terhubung ke PC.
 *   **Teknologi**: Cisco Packet Tracer, 12 Switch (2950 & 2960), 8 PC.
-*   **File Proyek**: [Download File .pkt](./mesh-topology-redundancy/mesh-topology.pkt)
+*   **File Proyek**: [Download File .pkt](./mesh-topology-redundancy/mesh-topology-redundancy.pkt)
 
 ---
 
 ### 4. Konfigurasi Switch & Port Security
 
-![Topologi Switch Security](./switch-port-security/topology.png)
+![Topologi Switch Security](./switch-port-security/switch-port-security.png)
 
 *   **Deskripsi**: Konfigurasi dasar switch 2950-24 untuk menghubungkan 6 PC (PC0-PC5) dengan pengalamatan IP statis (192.168.1.66 - 192.168.1.71), serta penerapan fitur keamanan *Port Security* untuk mencegah akses tidak sah.
 *   **Fitur**:
